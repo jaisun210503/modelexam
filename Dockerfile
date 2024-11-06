@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy your HTML file into the container
-COPY index.html /usr/share/nginx/html/index.html
+COPY web.html /usr/share/nginx/html/index.html
 
 # Expose the port the app will run on
 EXPOSE 80
